@@ -5,6 +5,9 @@ This project analyzes the UCI Census Income dataset to predict whether an indivi
 
 The project was completed as part of a collaborative data mining course assignment, where the modeling and analysis tasks were divided across team members. The notebook included in this repository focuses on the implementation and evaluation of several classification models using Python.
 
+## Key Results
+The Decision Tree model achieved 81.62% accuracy, while the manually implemented Logistic Regression model achieved 80.58% accuracy. The K-Nearest Neighbors classifier achieved 77.36% accuracy, showing strong recall but weaker precision for the minority income class. A weighted ensemble model combining the Decision Tree, Logistic Regression, and KNN classifiers achieved the best overall performance with 82.3% accuracy, improving the precision–recall balance and reducing false negatives compared to individual models.
+
 ## My Contribution
 
 Within the team project, my primary focus was implementing and evaluating the K-Nearest Neighbors (KNN) and Logistic Regression models. I implemented the KNN classifier and evaluated its performance across different values of k to better understand how neighborhood size influences classification accuracy. In addition, I developed a manual implementation of Logistic Regression using gradient descent in order to better understand how the model’s parameters are optimized during training.
