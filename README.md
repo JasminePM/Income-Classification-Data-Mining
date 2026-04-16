@@ -3,6 +3,8 @@
 
 This project analyzes the UCI Census Income dataset to predict whether an individual earns more than $50,000 annually based on demographic and socioeconomic attributes such as education level, occupation, age, and marital status. The goal of the analysis was to evaluate how different machine learning classification algorithms perform when predicting income levels and to understand how data preprocessing techniques influence model performance. The notebook included in this repository focuses on the implementation and evaluation of several classification models using Python.
 
+*same models different datasets per contributor
+
 ## Key Results
 The Decision Tree model achieved 81.62% accuracy, while the manually implemented Logistic Regression model achieved 80.58% accuracy. The K-Nearest Neighbors classifier achieved 77.36% accuracy, showing strong recall but weaker precision for the minority income class. A weighted ensemble model combining the Decision Tree, Logistic Regression, and KNN classifiers achieved the best overall performance with 82.3% accuracy, improving the precision–recall balance and reducing false negatives compared to individual models.
 
